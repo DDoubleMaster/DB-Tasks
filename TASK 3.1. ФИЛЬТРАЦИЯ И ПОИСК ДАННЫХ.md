@@ -6,7 +6,7 @@ from dse_firm_2 -- из таблицы dse_firm_2
 where agent_tel_fax -- где столбец agent_tel_fax
 like "%-23-%" -- содержит -23- значение
 ```
-![3.1_Phone.png](/resources/3.1_phone.png)
+![3.1_Phone.png](/resources/3.1_Phone.png)
 
 Диски с ценой продажи < 600
 ```SQL
