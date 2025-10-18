@@ -1,3 +1,4 @@
+# TASK 3.1. ФИЛЬТРАЦИЯ И ПОИСК ДАННЫХ
 Таблица FIRM_2: фирмы с телефоном агента, содержащим "23"
 ```SQL
 Select * -- Выбрать все строки
@@ -5,7 +6,7 @@ from dse_firm_2 -- из таблицы dse_firm_2
 where agent_tel_fax -- где столбец agent_tel_fax
 like "%-23-%" -- содержит -23- значение
 ```
-![[3.1_Phone.png]]
+![3.1_Phone.png](/resources/3.1_phone.png)
 
 Диски с ценой продажи < 600
 ```SQL
@@ -14,4 +15,4 @@ from dse_disk_1 -- из таблицы dse_disk_1
 where purchase_price * 300 -- где столбец purchase_price умноженная на 300 (плюс минус конвертация с тенге в доллар)
 < 600 -- меньше 600
 ```
-![[3.1_Price.png]]
+![3.1_Price.png](/resources/3.1_Price.png))

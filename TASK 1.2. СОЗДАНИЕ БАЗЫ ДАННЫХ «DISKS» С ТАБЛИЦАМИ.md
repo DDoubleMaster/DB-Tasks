@@ -1,3 +1,4 @@
+# TASK 1.2. СОЗДАНИЕ БАЗЫ ДАННЫХ «DISKS» С ТАБЛИЦАМИ
 ```SQL
 CREATE DATABASE IF NOT EXISTS `dse_disks`; -- Эту команду запускать отдельно
 USE `dse_disks`; -- Эту тоже отдельно
@@ -70,7 +71,7 @@ INSERT INTO `dse_tdisk_4` (tdisk_id, disk_type_name) VALUES
   (4,'Обучающие программы');
 ```
 
-![[1.2.png]]
+![1.2.png](/resources/1.2.png)
 
 ```
 dse_disks

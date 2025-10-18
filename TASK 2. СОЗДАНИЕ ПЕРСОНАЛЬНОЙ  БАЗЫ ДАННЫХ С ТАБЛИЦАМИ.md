@@ -1,3 +1,4 @@
+# TASK 2. СОЗДАНИЕ ПЕРСОНАЛЬНОЙ БАЗЫ ДАННЫХ С ТАБЛИЦАМИ
 ```SQL
 CREATE DATABASE IF NOT EXISTS dse_lamps;
 USE dse_lamps;
@@ -76,7 +77,7 @@ INSERT INTO dse_order (lamp_id, quantity, order_date) VALUES
   (5, 3, '2025-10-10');
 ```
 
-![[2.png]]
+![2.png](/resources/2.png)
 
 ```
 dse_lamps

@@ -17,4 +17,4 @@ order by firm_count desc;
 -- left join dse_firm_2 f on d.firm_id = f.firm_id
 -- left join dse_city_3 c on f.city_id = c.city_id
 ```
-![[4.1.png]]
+![4.1.png](/resources/4.1.png)

@@ -8,7 +8,7 @@ Select d.disk_name, f.firm_name
 from dse_disk_1 d
 left join dse_firm_2 f on d.firm_id = f.firm_id + 1;
 ```
-![[4.2 Left.png]]
+![4.2_Left.png](/resources/4.2_Left.png)
 
 
 ```SQL
@@ -19,7 +19,7 @@ Select f.firm_name, c.city_name
 from dse_firm_2 f
 right join dse_city_3 c on f.city_id = c.citY_id + 1;
 ```
-![[4.2 Right.png]]
+![4.2_Right.png](/resources/4.2_Right.png)
 
 
 ```SQL
@@ -29,7 +29,7 @@ Select d.disk_name, t.disk_type_name
 from dse_disk_1 d
 inner join dse_tdisk_4 t on d.tdisk_id = t.tdisk_id + 1;
 ```
-![[4.2 Inner.png]]
+![4.2_Inner.png](/resources/4.2_Inner.png)
 
 
 ```SQL
@@ -40,4 +40,4 @@ Select disk_name, selling_price from dse_disk_1 where disk_id = 2
 union
 Select disk_name, selling_price from dse_disk_1 where disk_id = 3;
 ```
-![[4.2 Union.png]]
+![4.2_Union.png](/resources/4.2_Union.png)
