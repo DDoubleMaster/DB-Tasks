@@ -1,0 +1,416 @@
+{
+  "main": {
+    "id": "9ee4eb0d07adccf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b9b3d93944827a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c66e65f21ca0596",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "4584a197603d052e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "a786f0fc1184af1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TASK 1.2. СОЗДАНИЕ БАЗЫ ДАННЫХ «DISKS» С ТАБЛИЦАМИ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TASK 1.2. СОЗДАНИЕ БАЗЫ ДАННЫХ «DISKS» С ТАБЛИЦАМИ"
+            }
+          },
+          {
+            "id": "14f1b9b66cbf2307",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "b44545f1f3972107",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "1972a40ec3bc4f13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "44aa91605e671755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3.1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3.1"
+            }
+          },
+          {
+            "id": "ff3a63902a1aa836",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "86b63e78f0db80a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "d4c0f823dc1d22ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "57abdc768862c95e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "27b314e67bc11889",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7.1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7.1"
+            }
+          },
+          {
+            "id": "da940a245fc7072a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "fd46b8cc382ccf82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7.2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7.2"
+            }
+          },
+          {
+            "id": "4dbc06201dd010a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "5023042c76ec29c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8.1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8.1"
+            }
+          }
+        ],
+        "currentTab": 15
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "668295fe8a2c772a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1fc53f1a146a575",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16d0218a9bf906bf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "6bdfa142b7cee83f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "62f82ecafdd73afe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0cf4cb217097ceba",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5a7d214d8fff3ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5f6faf35ec505e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TASK 1.2. СОЗДАНИЕ БАЗЫ ДАННЫХ «DISKS» С ТАБЛИЦАМИ.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для TASK 1.2. СОЗДАНИЕ БАЗЫ ДАННЫХ «DISKS» С ТАБЛИЦАМИ"
+            }
+          },
+          {
+            "id": "9c91ef149ae1349f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TASK 1.2. СОЗДАНИЕ БАЗЫ ДАННЫХ «DISKS» С ТАБЛИЦАМИ.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из TASK 1.2. СОЗДАНИЕ БАЗЫ ДАННЫХ «DISKS» С ТАБЛИЦАМИ"
+            }
+          },
+          {
+            "id": "4aa08cc636cc467b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "ee5406dbde75feaf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TASK 1.2. СОЗДАНИЕ БАЗЫ ДАННЫХ «DISKS» С ТАБЛИЦАМИ.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура TASK 1.2. СОЗДАНИЕ БАЗЫ ДАННЫХ «DISKS» С ТАБЛИЦАМИ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Создать новую базу": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "5023042c76ec29c5",
+  "lastOpenFiles": [
+    "README.md",
+    "8.1.md",
+    "resources/Task2_Dump.sql",
+    "resources/Task2_Dump (3).sql",
+    "resources/Task2_Dump (2).sql",
+    "resources/Task2_Dump (1).sql",
+    "7.2.md",
+    "resources/8.1_Role.sql",
+    "resources/7.2 JSON.sql",
+    "resources/7.2_JSON.sql",
+    "7.1.md",
+    "resources/7.1/7.2_JSON.sql",
+    "resources/7.2_JSON_Table.png",
+    "resources/7.2_JSON.png",
+    "resources/7.1/9.С_LIMIT_и_OFFSET.png",
+    "resources/7.1/8.В_DML.png",
+    "resources/7.1/7.С_ANY_SOME.png",
+    "resources/7.1/6.С_ALL.png",
+    "6.md",
+    "resources/7.1/9.С LIMIT и OFFSET.png",
+    "resources/7.1/8.В DML.png",
+    "resources/7.1/7.С ANY SOME.png",
+    "resources/7.1/6.С ALL.png",
+    "resources/7.1/9.С LIMIT и OFFSET.sql",
+    "resources/7.1/8.В DML.sql",
+    "5.2.md",
+    "5.1.md",
+    "4.2.md",
+    "2.md",
+    "3.1.md",
+    "4.1.md",
+    "3.2.md",
+    "1.2.md",
+    "1.1.md"
+  ]
+}

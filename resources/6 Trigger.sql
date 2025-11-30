@@ -1,0 +1,57 @@
+Drop table audit_log;
+Drop trigger trg_after_update_lamp;
+  
+Create table if not exists audit_log (
+    log_id int auto_increment primary key,
+    table_name varchar(100),
+    operation varchar(20),
+    record_id int,
+    old_value varchar(255),
+    new_value varchar(255),
+    changed_at timestamp default current_timestamp,
+    changed_by varchar(100)
+);
+  
+DELIMITER //
+Create trigger trg_after_update_lamp
+after update on dse_lamp
+for each row
+begin
+    if new.price < 0 then
+        signal sqlstate '45000'
+        Set message_text = 'цена не может быть отрицательной';
+    end if;
+  
+    if old.price <> new.price then
+        Insert into audit_log(table_name, operation, record_id, old_value, new_value, changed_by)
+        values ('dse_lamp', 'update', new.lamp_id,
+                concat('price=', old.price),
+                concat('price=', new.price),
+                current_user());
+    end if;
+  
+    if old.in_stock <> new.in_stock then
+        Insert into audit_log(table_name, operation, record_id, old_value, new_value, changed_by)
+        values ('dse_lamp', 'update', new.lamp_id,
+                concat('in_stock=', old.in_stock),
+                concat('in_stock=', new.in_stock),
+                current_user());
+    end if;
+end;
+//
+delimiter ;
+  
+-- Тест 1: обновление цены
+Update dse_lamp set price = 50.00 where lamp_id = 1;
+  
+-- Ожидаем: запись в audit_log с old_value='price=45.99', new_value='price=50.00'
+  
+-- Тест 2: обновление количества
+Update dse_lamp set in_stock = 20 where lamp_id = 2;
+  
+-- Ожидаем: запись в audit_log с old_value='in_stock=10', new_value='in_stock=20'
+  
+-- Тест 3: проверка бизнес-правила
+Update dse_lamp set price = -10 where lamp_id = 3;
+  
+-- Ожидаем: ошибка "цена не может быть отрицательной"
